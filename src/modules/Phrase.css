@@ -1,0 +1,13 @@
+.phrase {
+  display: flex;
+}
+
+.phrase >:nth-child(1) {
+  flex-shrink: 0;
+  margin-right: 18px;
+}
+
+.words-block {
+  display: flex;
+  flex-direction: column;
+}

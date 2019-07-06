@@ -1,9 +1,9 @@
 {
-  "extends": ["airbnb"],
+  "extends": ["airbnb-base", "airbnb/rules/react"],
   "plugins": ["react-hooks"],
   "rules": {
     "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn"
+    "react-hooks/exhaustive-deps": "off"
   },
   "env": {
     "browser": true
